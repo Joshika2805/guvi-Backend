@@ -1,0 +1,30 @@
+{
+    "name": "inventory-management-backend",
+    "version": "1.0.0",
+    "description": "Backend for an inventory management system with authentication and CRUD operations.",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js"
+    },
+    "keywords": [
+        "inventory",
+        "nodejs",
+        "express",
+        "backend",
+        "authentication",
+        "CRUD"
+    ],
+    "author": "JOSHIKA",
+    "license": "MIT",
+    "dependencies": {
+        "bcrypt": "^5.1.1",
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.20.3",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^8.9.2"
+    }
+}
